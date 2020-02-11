@@ -30,7 +30,7 @@ git 常用命令
 远程仓库：
 			创建SSH ———— ssh -keygen -t -rsa -C "email@email.com"
 			关联远程库 ———— git remote add origin git@server-name:path/repo-name.git
-			推送 ———— git push (-u) origin master
+			推送 ———— git push (-u) origin <branch-name>
 			克隆到本地 ———— git clone 仓库地址
 分支管理：
 			查看分支 ———— git branch
@@ -44,5 +44,9 @@ git 常用命令
 			恢复并删除新工作区 ———— git stash pop
 			查看stash空间 ———— git stash list
 			修复复制到其他分支 ———— git cheery-pick
+<<<<<<< HEAD
 			
 
+=======
+			强行删除 ———— git branch -D <name>
+>>>>>>> dev
