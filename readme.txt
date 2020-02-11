@@ -44,9 +44,5 @@ git 常用命令
 			恢复并删除新工作区 ———— git stash pop
 			查看stash空间 ———— git stash list
 			修复复制到其他分支 ———— git cheery-pick
-<<<<<<< HEAD
-			
-
-=======
 			强行删除 ———— git branch -D <name>
->>>>>>> dev
+
