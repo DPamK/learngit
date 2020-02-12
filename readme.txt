@@ -45,4 +45,11 @@ git 常用命令
 			查看stash空间 ———— git stash list
 			修复复制到其他分支 ———— git cheery-pick
 			强行删除 ———— git branch -D <name>
-
+标签管理：
+			命令git tag <tagname>用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+			命令git tag -a <tagname> -m "blablabla..."可以指定标签信息；
+			命令git tag可以查看所有标签。
+			命令git push origin <tagname>可以推送一个本地标签；
+			命令git push origin --tags可以推送全部未推送过的本地标签；
+			命令git tag -d <tagname>可以删除一个本地标签；
+			命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
